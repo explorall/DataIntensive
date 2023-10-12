@@ -9,7 +9,6 @@ from hdfsFunctions import *
 '''
 This script writes our raw data into our Hadoop server in HDFS.
 '''
-
 hdfs_path = "/rawFiles/"
 deleteHdfsFolder(hdfs_path)
 for i in os.listdir("./datasets"):
