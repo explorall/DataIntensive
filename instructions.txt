@@ -1,0 +1,5 @@
+
+sudo su
+echo "35.175.92.154   hadoop" >> /etc/hosts
+sudo nano /etc/hosts and add the host:
+35.175.92.154   hadoop
